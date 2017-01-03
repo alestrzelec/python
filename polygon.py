@@ -3,10 +3,18 @@ world = TurtleWorld()
 bob = Turtle()
 
 t = Turtle()
-def polygon(t, lenght, n):
+def polygon(t, l, n):
     for i in range(n):
-        b = 360 / n
-        fd(t, lenght)
+        b = 360.0 / n
+        fd(t, l)
         rt(t, b)
 
-polygon(bob, 100, 3)
+#polygon(bob, 100, 3)
+
+
+def circle(t, r, n):
+    l = (6.3 * r) / n
+    bob.delay = 0.01
+    polygon(t, l, n)
+
+circle(bob, 50, 100)
