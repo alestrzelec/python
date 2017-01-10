@@ -15,4 +15,4 @@ def arc(t, r, n, angle):
     l = (6.3 * r) / n
     polygon(t, l, n, angle)
 
-arc(bob, 15, 100, 80.0)
+arc(bob, 20, 100, 80.0)

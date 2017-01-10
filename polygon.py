@@ -9,9 +9,6 @@ def polygon(t, l, n):
         fd(t, l)
         rt(t, b)
 
-#polygon(bob, 100, 3)
-
-
 def circle(t, r, n):
     l = (6.3 * r) / n
     bob.delay = 0.01
